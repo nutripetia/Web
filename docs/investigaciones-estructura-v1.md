@@ -1,12 +1,12 @@
 # Convención de subcarpetas de investigaciones — v1.0 (propuesta)
 
-La sección pública existente `/investigaciones/` se sirve por `investigaciones.md`. La carpeta `investigaciones/` queda reservada para incorporar muchas investigaciones, cada una con **identificador estable** y subcarpeta propia. El `investigaciones/index.md` es provisional y tiene `published: false`; **no publicarlo simultáneamente** con `investigaciones.md` porque ambos declaran el mismo permalink.
+La sección pública existente `/investigaciones/` se sirve ahora por `investigaciones/index.md`, tras migración íntegra del contenido desde `investigaciones.md` en la rama WT-036. La carpeta permite incorporar investigaciones con **identificador estable** y subcarpeta propia. El archivo anterior fue eliminado en la rama para evitar duplicidad; la migración todavía no está fusionada ni publicada.
 
 ## Patrón por investigación
 
 ```text
 investigaciones/
-  index.md                 # reserva no publicada; índice público actual: ../investigaciones.md
+  index.md                 # índice público existente, migrado sin cambiar permalink
   INV-000001/              # ejemplo de identificador ya presente en el ZIP científico
     index.md               # futuro resumen público SOLO cuando esté aprobado
     fuentes/               # reservado: no duplicar expedientes privados
