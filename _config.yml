@@ -1,4 +1,6 @@
 title: Nutripetia
+url: "https://nutripetia.es"
+baseurl: ""
 description: "Investigación y divulgación científica sobre nutrición y bienestar animal."
 lang: es
 remote_theme: just-the-docs/just-the-docs
