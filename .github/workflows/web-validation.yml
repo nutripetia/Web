@@ -1,0 +1,36 @@
+name: Web validation (no deployment)
+
+on:
+  pull_request:
+    paths:
+      - '**/*.md'
+      - '_config.yml'
+      - 'Gemfile'
+      - 'Gemfile.lock'
+      - 'scripts/**'
+      - '.github/workflows/web-validation.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: Check source contracts
+        run: python3 scripts/check_source_contract.py
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.1'
+          bundler-cache: true
+      - name: Build Jekyll (no deploy)
+        env:
+          JEKYLL_ENV: production
+        run: bundle exec jekyll build --trace
+      - name: Check generated pages and sitemap
+        run: python3 scripts/validate_web.py
