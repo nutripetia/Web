@@ -24,6 +24,13 @@ Ocho áreas: fundamentos del bienestar; comportamiento y etología; estado emoci
 
 [Explorar las ocho áreas de bienestar]({{ '/guia/bienestar/' | relative_url }})
 
+## Portales especializados por especie
+
+- [Perros: nutrición y bienestar]({{ '/perros/' | relative_url }}) — organización específica del conocimiento canino.
+- [Gatos: nutrición y bienestar]({{ '/gatos/' | relative_url }}) — organización específica del conocimiento felino.
+
+Los portales permiten consultar la información desde cada especie sin duplicar la investigación científica de base.
+
 ## Cómo utilizar estos índices
 
 Cada área presenta un **índice provisional de temas**. Estos mapas permiten identificar qué se investigará, pero **no constituyen por sí mismos artículos científicos, revisiones concluidas ni recomendaciones veterinarias**. Las futuras publicaciones enlazarán fuentes y expedientes autorizados, distinguirán hechos de hipótesis y explicarán su aplicabilidad por especie.
