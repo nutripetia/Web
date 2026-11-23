@@ -19,12 +19,12 @@ for relative in public:
     if not (root / relative).is_file():
         errors.append(f'Missing required route: {relative}')
 
-reserved = [
-    'guia/index.html', 'guia/perros/index.html', 'guia/gatos/index.html',
-    'guia/nutricion/index.html', 'guia/bienestar/index.html',
-    'articulos/index.html', 'auditorias/index.html',
-]
-for relative in reserved:
+reserved_sources = sorted([*Path('guia').rglob('index.md'), Path('articulos/index.md'), Path('auditorias/index.md')])
+for source in reserved_sources:
+    text = source.read_text(encoding='utf-8')
+    if 'published: false' not in text or 'sitemap: false' not in text:
+        errors.append(f'Reservation flags missing: {source}')
+    relative = source.with_suffix('.html')
     if (root / relative).exists():
         errors.append(f'Unapproved placeholder published: {relative}')
 
@@ -36,7 +36,8 @@ else:
     try:
         tree = ET.parse(sitemap)
         urls = [node.text or '' for node in tree.iter() if node.tag.endswith('loc')]
-        for marker in ['/guia/', '/articulos/', '/auditorias/']:
+        for source in reserved_sources:
+            marker = '/' + source.parent.as_posix().strip('/') + '/'
             if any(url.rstrip('/').endswith(marker.rstrip('/')) for url in urls):
                 errors.append(f'Unapproved URL in sitemap: {marker}')
         for path in ['/investigaciones/', '/en/', '/nosotros/']:
@@ -50,4 +51,4 @@ if errors:
     for err in errors:
         print(' -', err)
     sys.exit(1)
-print(f'Web validation OK: {len(public)} public routes, {len(reserved)} reserved root routes, sitemap checked')
+print(f'Web validation OK: {len(public)} public routes, {len(reserved_sources)} reserved indexes, sitemap checked')
