@@ -1,33 +1,35 @@
 ---
 title: Nutripetia — English
-nav_order: 3
+nav_order: 5
 permalink: /en/
-description: Scientific research and evidence-based communication on animal nutrition and welfare.
+description: Independent scientific research, assessment and communication on dog and cat nutrition and welfare.
 lang: en
 ---
 
 # Nutripetia
 
-**Scientific knowledge to better understand animal nutrition and welfare.**
+**Research before reaching conclusions.**
 
-Nutripetia is a project dedicated to scientific research, critical assessment of evidence and accessible communication. We aim to distinguish established findings from hypotheses and unanswered questions.
+Nutripetia is an independent initiative devoted to scientific research, analysis, assessment and communication on **animal nutrition and welfare**, with a primary focus on **dogs and cats**.
+
+We examine evidence, distinguish established findings from uncertainty, and aim to make knowledge understandable, traceable and open to revision.
+
+[About Nutripetia](/en/about/) · [Our methodology](/en/methodology/)
+
+## Nutrition and welfare, studied together
+
+Our research interests include nutrients, digestion, metabolism, foods and ingredients, feeding practices, behaviour, emotional state, environment and physical welfare. We examine connections without treating correlation as proof of causation.
 
 ## Our work
 
-### Scientific research
+**Scientific research.** We define questions, examine sources and critically assess evidence and limitations.
 
-We examine specific questions, evaluate sources and evidence, and document limitations. Research will be published only after the appropriate methodological and review stages.
+**Analysis and auditing.** We assess scientific and commercial claims using consistent standards.
 
-### Science communication
+**Science communication.** We aim to explain reviewed findings accurately, preserving qualifications and uncertainty.
 
-We will turn reviewed research into clear articles without losing scientific nuance, references or uncertainty.
+## Project status
 
-### A connected knowledge guide
+Nutripetia is developing its scientific and editorial foundations. Open research files are **not** presented as completed findings. A connected knowledge guide is planned for a later stage, once the underlying evidence base is established.
 
-At a later stage, we plan to develop a guide organised by animal species, nutritional needs, welfare and scientific relationships. We will not create empty sections merely to fill the website.
-
-## Our approach
-
-Traceability, critical review and clear distinctions between evidence and interpretation guide the project.
-
-[Read about our methodology](./methodology/) · [Versión en español](/)
+[Read about our methodology](/en/methodology/) · [Español](/)
