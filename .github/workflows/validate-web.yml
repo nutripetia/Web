@@ -17,3 +17,5 @@ jobs:
         run: bundle exec jekyll build --trace
       - name: Verify stable URLs and unpublished placeholders
         run: python3 scripts/validate_web.py
+      - name: Verify SEO metadata and sitemap in generated HTML
+        run: python3 scripts/validate_seo.py
