@@ -1,0 +1,20 @@
+# Verificación de integridad — archivo fundacional
+
+Origen: `Nutripetia-main (2)(2).zip`, aportado por CEO. Los siguientes SHA-256 corresponden a los bytes originales de cada entrada, sin reescritura.
+
+```text
+9a775ad7b18881c8168042e30587b2955ff6ae6d9e5d9a0c2ff9edf7833ceac8 README.md
+2f578df372c75c923bf9804b5fafbae76aa13a2aa162df801a5e2b0ae5a03c1e canon/canon.yaml
+e328fb05f55620b981f9f75a85f7cc9061afe2130865a65921d1adb7cd044391 canon/epistemologia.yaml
+d0d4164b528d1e590a35985c12ee638792d34e2ba8dfc0c293bb4467168ec92b canon/principios.md
+832ee96843025ea004fbac13339edffc265b15b20b5e7a9da2f83e6feb287fd2 canon/relaciones.yaml
+81583609c27ec2f944919f23a1fc7570acb549b81b847909a4aeaf778a407053 canon/taxonomia.yaml
+bafedf87830dfc196d73554f4b3f5344b39e2914eedd17acf1f7b405ef5e1dd5 investigaciones/INV-000001/index.md
+c1d405387d0395ab53b326c8dedee01aba5f7c42d01363348bd61fd31886713d metodologia/afirmaciones.md
+19ea4edf5f44901e7bc3c1aa8a68e63c8e3ec4d7843aaf1d1c3cf02bc4ff metodologia/auditorias.md
+456412bb2897668e45fb085d60789223f09ac012c716f6cfa0de428aaa5056a2 metodologia/fuentes.md
+fbb25ee86ef495da248af39ad350d556d7960fc24860980495cf5e7cabdaca95 metodologia/investigacion.md
+4ac28c75c938358eb762785678bd5f02885c88b8c09faf7ca6df6d8f4b8ff9ec metodologia/publicacion.md
+```
+
+**Pendiente:** cotejar contra archivos efectivamente transferidos a un repositorio privado de fuente científica. La rama pública de Web no debe alojar material científico interno no revisado. Estos hashes no demuestran subida de los originales.
