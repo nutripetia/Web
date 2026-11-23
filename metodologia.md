@@ -24,4 +24,4 @@ El proyecto dispone de un Canon IA y cinco protocolos científicos. La descripci
 
 La publicación de una investigación requiere que el expediente científico y su revisión estén completos. La ausencia de artículos publicados no implica que existan resultados concluyentes pendientes de mostrar.
 
-[Inicio](/)
+[Inicio]({{ '/' | relative_url }})
