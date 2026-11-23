@@ -30,4 +30,4 @@ El piloto también servirá para evaluar la aplicación de la metodología, **se
 
 Publicaremos investigaciones cuando dispongan de fuentes, análisis, revisión independiente y autorización correspondientes. No crearemos resultados ni bibliografías aparentes para llenar secciones.
 
-[Cómo trabajamos](/metodologia/) · [Volver al inicio](/)
+[Cómo trabajamos]({{ '/metodologia/' | relative_url }}) · [Volver al inicio]({{ '/' | relative_url }})
