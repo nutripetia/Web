@@ -1,6 +1,6 @@
 # Arquitectura integral de Nutripetia — contrato de implementación v1.1
 
-**Fecha:** 2026-11-23 · **Expediente:** WT-036 / NX-WEB-01 · **Estado:** implementación documental en PR; no desplegada ni validada en producción.
+**Fecha:** 2026-11-23 · **Expediente:** WT-036 / NX-WEB-01 · **Estado:** propuesta implementada en rama/PR; no desplegada ni validada en producción.
 
 ## Autoridad, antecedentes y alcance
 
@@ -37,10 +37,10 @@ Web/
 │   ├── index.md                     /auditorias/ (reserva NO publicada)
 │   └── <id-o-slug>/index.md         FUTURO: dictamen público aprobado
 ├── guia/
-│   ├── index.md                     /guia/ (reserva NO publicada)
+│   ├── index.md                     /guia/ (índice provisional propuesto en PR)
 │   ├── perros/, gatos/              reservas de acceso transversal, no clones
-│   ├── nutricion/                   reservas temáticas NUT-01..07
-│   └── bienestar/                   reservas temáticas BIE-01..08
+│   ├── nutricion/                   7 índices temáticos provisionales propuestos en PR
+│   └── bienestar/                   8 índices temáticos provisionales propuestos en PR
 ├── en/
 │   ├── index.md                     /en/ (existente)
 │   ├── about.md                     /en/about/ (existente)
@@ -55,7 +55,7 @@ Web/
 
 ## Navegación progresiva
 
-**Ahora:** Inicio, Investigaciones, Metodología, Nosotros, English. **Después, con contenido real y autorización:** Nutrición y Bienestar como portales si ofrecen valor diferente de los índices de Guía; Artículos y Auditorías; Guía y bibliografía pública derivada solo con fichas/referencias útiles y autorizadas. No exponer reservas `published: false` en navegación, sitemap, buscador ni HTML.
+**Propuesto en este PR:** Inicio, Investigaciones, Guía (índices temáticos provisionales claramente señalados), Metodología, Nosotros, English. **Después, con contenido real y autorización:** Nutrición y Bienestar como portales si ofrecen valor diferente de los índices de Guía; Artículos y Auditorías; fichas científicas sustantivas y bibliografía pública derivada solo con material revisado. No exponer reservas `published: false` en navegación, sitemap, buscador ni HTML.
 
 ## Contrato de publicación y relaciones
 
@@ -79,4 +79,4 @@ Web/
 
 ## Decisiones y límites
 
-Esta intervención **actualiza solo el contrato documental**. No activa rutas, no modifica `_config.yml`, no altera la taxonomía, no publica artículos ni realiza despliegue. Los portales temáticos y páginas futuras requieren contenido revisado y una decisión de publicación independiente. La compilación y la validación del sitio siguen pendientes de ejecución comprobable.
+Esta intervención **propone activar en el PR** `/guia/`, `/guia/nutricion/`, `/guia/bienestar/` y 15 índices provisionales de áreas, todos sin conclusiones científicas. No modifica `_config.yml`, no altera la taxonomía, no publica investigaciones ni realiza despliegue. Los portales temáticos y páginas futuras requieren contenido revisado y una decisión de publicación independiente. La compilación y la validación del sitio siguen pendientes de ejecución comprobable.
