@@ -14,7 +14,7 @@ Nutripetia is an independent initiative devoted to scientific research, analysis
 
 We examine evidence, distinguish established findings from uncertainty, and aim to make knowledge understandable, traceable and open to revision.
 
-[About Nutripetia](/en/about/) · [Our methodology](/en/methodology/)
+[About Nutripetia]({{ '/en/about/' | relative_url }}) · [Our methodology]({{ '/en/methodology/' | relative_url }})
 
 ## Nutrition and welfare, studied together
 
@@ -32,4 +32,4 @@ Our research interests include nutrients, digestion, metabolism, foods and ingre
 
 Nutripetia is developing its scientific and editorial foundations. Open research files are **not** presented as completed findings. A connected knowledge guide is planned for a later stage, once the underlying evidence base is established.
 
-[Read about our methodology](/en/methodology/) · [Español](/)
+[Read about our methodology]({{ '/en/methodology/' | relative_url }}) · [Español]({{ '/' | relative_url }})

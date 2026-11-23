@@ -1,6 +1,6 @@
 ---
 title: El proyecto
-nav_order: 2
+nav_order: 4
 permalink: /nosotros/
 description: Identidad, horizonte, independencia y principios de Nutripetia.
 lang: es
@@ -36,4 +36,4 @@ Perros y gatos constituyen el núcleo del proyecto. La investigación comparada 
 
 La estructura científica se apoya en un Canon IA y cinco protocolos metodológicos. Las investigaciones, las evaluaciones del sistema y la divulgación cumplen funciones distintas y no deben confundirse.
 
-[Metodología](/metodologia/) · [Investigaciones](/investigaciones/)
+[Metodología]({{ '/metodologia/' | relative_url }}) · [Investigaciones]({{ '/investigaciones/' | relative_url }})

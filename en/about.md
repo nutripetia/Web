@@ -16,4 +16,4 @@ We distinguish observations, hypotheses, interpretations and unknowns. We also d
 
 Nutripetia is under development; research will be made public only after the required review and authorisation stages.
 
-[Methodology](/en/methodology/) · [English home](/en/) · [Español](/nosotros/)
+[Methodology]({{ '/en/methodology/' | relative_url }}) · [English home]({{ '/en/' | relative_url }}) · [Español]({{ '/nosotros/' | relative_url }})

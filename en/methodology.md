@@ -23,4 +23,4 @@ We define research questions, identify and assess sources, evaluate potential bi
 
 The project has an AI Canon and five methodological protocols. Their detailed public presentation will follow verification of the authoritative versions and the scope approved for publication.
 
-[About Nutripetia](/en/about/) · [Español](/metodologia/)
+[About Nutripetia]({{ '/en/about/' | relative_url }}) · [Español]({{ '/metodologia/' | relative_url }})

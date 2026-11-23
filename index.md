@@ -13,7 +13,7 @@ Investigación, análisis, auditoría y divulgación científica independiente s
 
 Nuestro propósito es examinar la evidencia disponible, distinguir lo demostrado de lo incierto y ofrecer conocimiento comprensible, trazable y abierto a revisión.
 
-[Conoce el proyecto](/nosotros/) · [Cómo investigamos](/metodologia/) · [Investigaciones](/investigaciones/)
+[Conoce el proyecto]({{ '/nosotros/' | relative_url }}) · [Cómo investigamos]({{ '/metodologia/' | relative_url }}) · [Investigaciones]({{ '/investigaciones/' | relative_url }})
 
 ## Dos ámbitos, una visión conectada
 
@@ -29,7 +29,7 @@ Abordamos comportamiento, estado emocional, entorno, relaciones, salud y bienest
 
 ### Investigación científica
 
-Formulamos preguntas delimitadas, buscamos y contrastamos fuentes y analizamos la calidad y las limitaciones de la evidencia. [Explora nuestras líneas de investigación](/investigaciones/).
+Formulamos preguntas delimitadas, buscamos y contrastamos fuentes y analizamos la calidad y las limitaciones de la evidencia. [Explora nuestras líneas de investigación]({{ '/investigaciones/' | relative_url }}).
 
 ### Análisis y auditoría
 
@@ -45,4 +45,4 @@ Nutripetia está construyendo su base científica y editorial. Las investigacion
 
 La futura **Guía de nutrición y bienestar animal** reunirá conocimiento contrastado y relacionado entre sí, cuando exista una base suficiente para desarrollarla.
 
-[Consulta nuestra metodología](/metodologia/) · [English](/en/)
+[Consulta nuestra metodología]({{ '/metodologia/' | relative_url }}) · [English]({{ '/en/' | relative_url }})
