@@ -1,31 +1,48 @@
 ---
 title: Nutripetia
 nav_order: 1
-description: Investigación y divulgación científica sobre nutrición y bienestar animal.
+description: Investigación, análisis y divulgación científica independiente sobre nutrición y bienestar de perros y gatos.
+lang: es
 ---
 
 # Nutripetia
 
-**Conocimiento científico para comprender mejor la nutrición y el bienestar animal.**
+**Investigar antes de concluir.**
 
-Nutripetia es un proyecto de investigación, análisis crítico y divulgación. Su propósito es reunir conocimiento contrastable, explicar lo que sabemos y distinguirlo de lo que todavía necesita investigación.
+Investigación, análisis, auditoría y divulgación científica independiente sobre la **nutrición y el bienestar animal**, con especial atención a **perros y gatos**.
 
-## Nuestro trabajo
+Nuestro propósito es examinar la evidencia disponible, distinguir lo demostrado de lo incierto y ofrecer conocimiento comprensible, trazable y abierto a revisión.
+
+[Conoce el proyecto](/nosotros/) · [Cómo investigamos](/metodologia/) · [Investigaciones](/investigaciones/)
+
+## Dos ámbitos, una visión conectada
+
+### Nutrición animal
+
+Estudiamos nutrientes, digestión y metabolismo, alimentos e ingredientes, alimentación práctica, necesidades específicas y evaluación nutricional. Una afirmación nutricional no se acepta únicamente por su popularidad o por su uso comercial.
+
+### Bienestar animal
+
+Abordamos comportamiento, estado emocional, entorno, relaciones, salud y bienestar físico, desarrollo y evaluación del bienestar. La nutrición y el bienestar se estudian también en sus relaciones, sin confundir asociación con causalidad.
+
+## Qué hacemos
 
 ### Investigación científica
 
-Estudiamos preguntas concretas mediante revisión de fuentes, evaluación de la evidencia y análisis de sus limitaciones. Las investigaciones se publicarán cuando hayan completado los controles metodológicos y de revisión previstos.
+Formulamos preguntas delimitadas, buscamos y contrastamos fuentes y analizamos la calidad y las limitaciones de la evidencia. [Explora nuestras líneas de investigación](/investigaciones/).
 
-### Divulgación científica
+### Análisis y auditoría
 
-Transformaremos los hallazgos revisados en artículos comprensibles, conservando sus matices, fuentes e incertidumbres.
+Examinamos afirmaciones, estudios, recomendaciones y prácticas con criterios explícitos, aplicados tanto a resultados favorables como desfavorables.
 
-### Una guía de conocimiento interconectado
+### Divulgación rigurosa
 
-En una fase posterior construiremos una guía de nutrición y bienestar animal organizada por especies, necesidades y relaciones científicas. No publicaremos apartados sin contenido contrastado.
+Convertimos los hallazgos revisados y autorizados en contenidos claros, sin ocultar incertidumbres ni convertir hipótesis en hechos.
 
-## Cómo trabajamos
+## Un proyecto en desarrollo
 
-La trazabilidad, la revisión crítica y la separación entre hechos, hipótesis e interpretaciones forman parte del proyecto. [Conoce nuestra metodología](./metodologia/).
+Nutripetia está construyendo su base científica y editorial. Las investigaciones se publicarán cuando superen las fases de documentación, revisión y autorización. **No presentamos expedientes abiertos como resultados científicos concluidos.**
 
-[English version](./en/)
+La futura **Guía de nutrición y bienestar animal** reunirá conocimiento contrastado y relacionado entre sí, cuando exista una base suficiente para desarrollarla.
+
+[Consulta nuestra metodología](/metodologia/) · [English](/en/)
