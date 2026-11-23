@@ -1,0 +1,26 @@
+title: Nutripetia
+description: "Investigación y divulgación científica sobre nutrición y bienestar animal."
+lang: es
+remote_theme: just-the-docs/just-the-docs
+color_scheme: light
+search_enabled: true
+heading_anchors: true
+aux_links:
+  "GitHub":
+    - "https://github.com/nutripetia"
+aux_links_new_tab: true
+permalink: pretty
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - docs/
+  - vendor/
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
