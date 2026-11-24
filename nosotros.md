@@ -1,6 +1,6 @@
 ---
 title: El proyecto
-nav_order: 4
+nav_order: 8
 permalink: /nosotros/
 description: Identidad, horizonte, independencia y principios de Nutripetia.
 lang: es
