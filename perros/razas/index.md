@@ -12,18 +12,15 @@ Esta sección organiza el estudio de razas y diversidad aplicado específicament
 
 ## Ámbitos de estudio
 
-- Variación morfológica.
-- Genética.
-- Diferencias individuales.
-- Selección y reproducción.
-- Afirmaciones sobre predisposiciones y su evidencia.
+- Diversidad funcional y morfológica.
+- Tamaño corporal y necesidades individuales.
+- Genética y predisposiciones documentadas.
+- Selección y reproducción responsable.
+- Fichas de razas y límites de extrapolación.
 
-## Preguntas para investigar
+## Programa de desarrollo
 
-- ¿Qué particularidades de esta materia están documentadas en perros?
-- ¿Qué diferencias individuales o contextuales pueden modificar su interpretación?
-- ¿Qué fuentes permiten distinguir resultados observados, hipótesis y recomendaciones?
-- ¿Cuándo no es válido extrapolar resultados de otras especies?
+Cada ámbito se desarrollará mediante preguntas delimitadas, fuentes contrastadas y revisión independiente. Se priorizarán los contenidos de utilidad práctica y las incertidumbres relevantes para perros, sin confundir asociaciones con causalidad ni recomendaciones generales con indicaciones clínicas individuales.
 
 ## Relación con el conocimiento general
 
