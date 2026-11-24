@@ -1,7 +1,8 @@
 ---
 title: "Comportamiento de gatos"
 permalink: /gatos/comportamiento/
-nav_exclude: true
+parent: Gatos
+nav_order: 6
 lang: es
 description: "Índice especializado de comportamiento felina en Nutripetia."
 ---
