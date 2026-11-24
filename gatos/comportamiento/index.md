@@ -12,19 +12,16 @@ Esta sección organiza el estudio de comportamiento aplicado específicamente al
 
 ## Ámbitos de estudio
 
-- Comunicación.
-- Aprendizaje.
-- Conducta alimentaria.
-- Estrés.
-- Relaciones sociales.
-- Adaptación al entorno.
+- Comunicación corporal y vocal.
+- Juego y conducta predatoria.
+- Socialización y aprendizaje.
+- Relaciones entre gatos.
+- Relación humano-gato.
+- Conducta alimentaria y exploración.
 
-## Preguntas para investigar
+## Programa de desarrollo
 
-- ¿Qué particularidades de esta materia están documentadas en gatos?
-- ¿Qué diferencias individuales o contextuales pueden modificar su interpretación?
-- ¿Qué fuentes permiten distinguir resultados observados, hipótesis y recomendaciones?
-- ¿Cuándo no es válido extrapolar resultados de otras especies?
+Cada ámbito se desarrollará mediante preguntas delimitadas, fuentes contrastadas y revisión independiente. Se priorizarán los contenidos de utilidad práctica y las incertidumbres relevantes para gatos, sin confundir asociaciones con causalidad ni recomendaciones generales con indicaciones clínicas individuales.
 
 ## Relación con el conocimiento general
 
