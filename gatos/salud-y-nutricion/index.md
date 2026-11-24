@@ -1,7 +1,8 @@
 ---
 title: "Salud y nutrición de gatos"
 permalink: /gatos/salud-y-nutricion/
-nav_exclude: true
+parent: Gatos
+nav_order: 4
 lang: es
 description: "Índice especializado de salud y nutrición felina en Nutripetia."
 ---
