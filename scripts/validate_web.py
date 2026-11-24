@@ -1,54 +1,70 @@
 #!/usr/bin/env python3
-"""Read-only structural checks against Jekyll output; no deploy or publishing."""
+"""Validate built public routes and explicit unpublished reservations."""
 from pathlib import Path
+from urllib.parse import urlsplit
 import sys
 import xml.etree.ElementTree as ET
+import yaml
 
-root = Path('_site')
-errors = []
-if not root.is_dir():
-    sys.exit('ERROR: _site not found; run Jekyll build first')
+def frontmatter(source):
+    lines = source.read_text(encoding="utf-8").splitlines()
+    if not lines or lines[0].strip() != "---":
+        raise ValueError(f"Missing front matter: {source}")
+    end = lines.index("---", 1)
+    data = yaml.safe_load("\n".join(lines[1:end]))
+    if not isinstance(data, dict):
+        raise ValueError(f"Invalid front matter: {source}")
+    return data
 
-# Contract of existing public routes, independent of baseurl / domain.
-public = [
-    'index.html', 'nosotros/index.html', 'metodologia/index.html',
-    'investigaciones/index.html', 'en/index.html',
-    'en/about/index.html', 'en/methodology/index.html',
-]
-for relative in public:
-    if not (root / relative).is_file():
-        errors.append(f'Missing required route: {relative}')
+def route(source, data):
+    path = data.get("permalink")
+    if not isinstance(path, str) or not path.startswith("/") or ":" in path or ".." in path.split("/"):
+        raise ValueError(f"Explicit static permalink required: {source}")
+    return path
 
-reserved_sources = sorted([*Path('guia').rglob('index.md'), Path('articulos/index.md'), Path('auditorias/index.md')])
-for source in reserved_sources:
-    text = source.read_text(encoding='utf-8')
-    if 'published: false' not in text or 'sitemap: false' not in text:
-        errors.append(f'Reservation flags missing: {source}')
-    relative = source.with_suffix('.html')
-    if (root / relative).exists():
-        errors.append(f'Unapproved placeholder published: {relative}')
+def output(root, path):
+    return root / (path.lstrip("/") + ("index.html" if path.endswith("/") else ""))
 
-# Jekyll sitemap must not expose unpublished reservations.
-sitemap = root / 'sitemap.xml'
-if not sitemap.is_file():
-    errors.append('Missing sitemap.xml')
-else:
-    try:
-        tree = ET.parse(sitemap)
-        urls = [node.text or '' for node in tree.iter() if node.tag.endswith('loc')]
-        for source in reserved_sources:
-            marker = '/' + source.parent.as_posix().strip('/') + '/'
-            if any(url.rstrip('/').endswith(marker.rstrip('/')) for url in urls):
-                errors.append(f'Unapproved URL in sitemap: {marker}')
-        for path in ['/investigaciones/', '/en/', '/nosotros/']:
-            if not any(url.rstrip('/').endswith(path.rstrip('/')) for url in urls):
-                errors.append(f'Missing URL in sitemap: {path}')
-    except ET.ParseError as exc:
-        errors.append(f'Invalid sitemap XML: {exc}')
+def validate(root, sources, urls):
+    errors = []
+    seen = set()
+    for source in sources:
+        try:
+            data = frontmatter(source)
+            path = route(source, data)
+            if path in seen:
+                errors.append(f"Duplicate permalink: {path}")
+            seen.add(path)
+            if data.get("published") is False:
+                if data.get("sitemap") is not False:
+                    errors.append(f"Reservation missing sitemap:false: {source}")
+                if output(root, path).exists() or path.rstrip("/") in urls:
+                    errors.append(f"Reserved route exposed: {path}")
+            else:
+                if not output(root, path).is_file():
+                    errors.append(f"Missing public route: {path}")
+                if data.get("sitemap") is not False and path.rstrip("/") not in urls:
+                    errors.append(f"Missing sitemap route: {path}")
+        except (ValueError, OSError, yaml.YAMLError) as exc:
+            errors.append(str(exc))
+    return errors
 
-if errors:
-    print('Web validation FAILED:')
-    for err in errors:
-        print(' -', err)
-    sys.exit(1)
-print(f'Web validation OK: {len(public)} public routes, {len(reserved_sources)} reserved indexes, sitemap checked')
+def main():
+    root = Path("_site")
+    if not root.is_dir():
+        sys.exit("ERROR: build Jekyll first")
+    tree = ET.parse(root / "sitemap.xml")
+    urls = {urlsplit(n.text or "").path.rstrip("/") for n in tree.iter() if n.tag.split("}")[-1] == "loc"}
+    sources = sorted(p for section in ("guia", "perros", "gatos", "articulos", "auditorias") for p in Path(section).rglob("index.md"))
+    errors = validate(root, sources, urls)
+    for path in ("/", "/nosotros/", "/metodologia/", "/investigaciones/", "/en/", "/en/about/", "/en/methodology/", "/guia/", "/perros/", "/gatos/"):
+        if not output(root, path).is_file():
+            errors.append(f"Missing required route: {path}")
+        if path.rstrip("/") not in urls:
+            errors.append(f"Missing required sitemap route: {path}")
+    if errors:
+        sys.exit("Web validation FAILED:\n" + "\n".join(errors))
+    print(f"Web validation OK: {len(sources)} thematic indexes")
+
+if __name__ == "__main__":
+    main()
