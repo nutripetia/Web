@@ -12,19 +12,16 @@ Esta sección organiza el estudio de bienestar aplicado específicamente al gato
 
 ## Ámbitos de estudio
 
-- Necesidades conductuales.
-- Entorno.
-- Descanso.
-- Relaciones.
-- Salud física.
-- Indicadores de bienestar.
+- Territorio y distribución de recursos.
+- Refugios y espacios verticales.
+- Enriquecimiento ambiental.
+- Descanso y seguridad percibida.
+- Convivencia entre gatos.
+- Estrés e indicadores de bienestar.
 
-## Preguntas para investigar
+## Programa de desarrollo
 
-- ¿Qué particularidades de esta materia están documentadas en gatos?
-- ¿Qué diferencias individuales o contextuales pueden modificar su interpretación?
-- ¿Qué fuentes permiten distinguir resultados observados, hipótesis y recomendaciones?
-- ¿Cuándo no es válido extrapolar resultados de otras especies?
+Cada ámbito se desarrollará mediante preguntas delimitadas, fuentes contrastadas y revisión independiente. Se priorizarán los contenidos de utilidad práctica y las incertidumbres relevantes para gatos, sin confundir asociaciones con causalidad ni recomendaciones generales con indicaciones clínicas individuales.
 
 ## Relación con el conocimiento general
 
