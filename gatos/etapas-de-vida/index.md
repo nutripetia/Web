@@ -1,7 +1,8 @@
 ---
 title: "Etapas de vida de gatos"
 permalink: /gatos/etapas-de-vida/
-nav_exclude: true
+parent: Gatos
+nav_order: 3
 lang: es
 description: "Índice especializado de etapas de vida felina en Nutripetia."
 ---
