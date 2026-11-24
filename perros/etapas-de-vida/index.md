@@ -1,7 +1,8 @@
 ---
 title: "Etapas de vida de perros"
 permalink: /perros/etapas-de-vida/
-nav_exclude: true
+parent: Perros
+nav_order: 3
 lang: es
 description: "Índice especializado de etapas de vida canina en Nutripetia."
 ---
