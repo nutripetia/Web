@@ -1,7 +1,8 @@
 ---
 title: "Comportamiento de perros"
 permalink: /perros/comportamiento/
-nav_exclude: true
+parent: Perros
+nav_order: 6
 lang: es
 description: "Índice especializado de comportamiento canina en Nutripetia."
 ---
