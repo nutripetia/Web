@@ -1,7 +1,8 @@
 ---
-title: "Razas y diversidad de gatos"
+title: "Razas de gatos"
 permalink: /gatos/razas/
-nav_exclude: true
+parent: Gatos
+nav_order: 7
 lang: es
 description: "Índice especializado de razas y diversidad felina en Nutripetia."
 ---
