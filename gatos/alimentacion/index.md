@@ -12,19 +12,16 @@ Esta sección organiza el estudio de alimentación aplicado específicamente al 
 
 ## Ámbitos de estudio
 
-- Alimentos completos y complementarios.
-- Lectura de etiquetas.
-- Alimentación seca y húmeda.
-- Dietas preparadas en casa.
-- Frecuencia y raciones.
-- Seguridad alimentaria.
+- Piensos secos y alimentación húmeda.
+- Piensos con y sin cereales (INV-000001).
+- Dietas caseras cocinadas y crudas.
+- Frecuencia y conducta alimentaria.
+- Palatabilidad y transiciones.
+- Etiquetado y seguridad.
 
-## Preguntas para investigar
+## Programa de desarrollo
 
-- ¿Qué particularidades de esta materia están documentadas en gatos?
-- ¿Qué diferencias individuales o contextuales pueden modificar su interpretación?
-- ¿Qué fuentes permiten distinguir resultados observados, hipótesis y recomendaciones?
-- ¿Cuándo no es válido extrapolar resultados de otras especies?
+Cada ámbito se desarrollará mediante preguntas delimitadas, fuentes contrastadas y revisión independiente. Se priorizarán los contenidos de utilidad práctica y las incertidumbres relevantes para gatos, sin confundir asociaciones con causalidad ni recomendaciones generales con indicaciones clínicas individuales.
 
 ## Relación con el conocimiento general
 
