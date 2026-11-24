@@ -1,8 +1,7 @@
 ---
-title: "Inicio"
+title: "Nutrición y bienestar de perros y gatos"
 seo:
   name: Nutripetia
-  title: "Nutrición y bienestar de perros y gatos"
 nav_order: 1
 description: Investigación, análisis y divulgación científica independiente sobre nutrición y bienestar de perros y gatos.
 lang: es
