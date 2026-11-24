@@ -19,8 +19,6 @@ exclude:
   - docs/
   - vendor/
   - scripts/
-seo:
-  type: Organization
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
