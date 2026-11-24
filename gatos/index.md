@@ -10,7 +10,7 @@ description: "Portal especializado en nutrición, alimentación, comportamiento 
 
 El gato tiene necesidades biológicas, nutricionales y conductuales que requieren un análisis propio. Este portal reúne las materias específicas de la especie y las conecta con la investigación científica de Nutripetia.
 
-## Explorar el conocimiento felina
+## Explorar el conocimiento felino
 
 - [Nutrición]({{ '/gatos/nutricion/' | relative_url }}) — necesidades energéticas, nutrientes esenciales, digestión y metabolismo, hidratación, evaluación de la dieta.
 - [Alimentación]({{ '/gatos/alimentacion/' | relative_url }}) — alimentos completos y complementarios, lectura de etiquetas, alimentación seca y húmeda, dietas preparadas en casa, frecuencia y raciones, seguridad alimentaria.
