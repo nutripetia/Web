@@ -1,7 +1,8 @@
 ---
 title: "Alimentación de gatos"
 permalink: /gatos/alimentacion/
-nav_exclude: true
+parent: Gatos
+nav_order: 2
 lang: es
 description: "Índice especializado de alimentación felina en Nutripetia."
 ---
