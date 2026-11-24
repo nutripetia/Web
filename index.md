@@ -1,5 +1,8 @@
 ---
-title: Nutripetia
+title: "Inicio"
+seo:
+  name: Nutripetia
+  title: "Nutrición y bienestar de perros y gatos"
 nav_order: 1
 description: Investigación, análisis y divulgación científica independiente sobre nutrición y bienestar de perros y gatos.
 lang: es
@@ -14,6 +17,16 @@ Investigación, análisis, auditoría y divulgación científica independiente s
 Nuestro propósito es examinar la evidencia disponible, distinguir lo demostrado de lo incierto y ofrecer conocimiento comprensible, trazable y abierto a revisión.
 
 [Conoce el proyecto]({{ '/nosotros/' | relative_url }}) · [Cómo investigamos]({{ '/metodologia/' | relative_url }}) · [Investigaciones]({{ '/investigaciones/' | relative_url }})
+
+## Explora Nutripetia por especie
+
+### [Perros]({{ '/perros/' | relative_url }})
+
+Accede a los índices especializados de nutrición, alimentación, etapas de vida, salud y nutrición, bienestar, comportamiento y diversidad canina.
+
+### [Gatos]({{ '/gatos/' | relative_url }})
+
+Explora las particularidades felinas de nutrición, alimentación, etapas de vida, salud y nutrición, bienestar, comportamiento y diversidad.
 
 ## Dos ámbitos, una visión conectada
 
@@ -43,6 +56,6 @@ Convertimos los hallazgos revisados y autorizados en contenidos claros, sin ocul
 
 Nutripetia está construyendo su base científica y editorial. Las investigaciones se publicarán cuando superen las fases de documentación, revisión y autorización. **No presentamos expedientes abiertos como resultados científicos concluidos.**
 
-La futura **Guía de nutrición y bienestar animal** reunirá conocimiento contrastado y relacionado entre sí, cuando exista una base suficiente para desarrollarla.
+La [Guía de nutrición y bienestar animal]({{ '/guia/' | relative_url }}) ya permite explorar los índices temáticos provisionales. Las fichas y conclusiones científicas se incorporarán después de las revisiones pertinentes.
 
 [Consulta nuestra metodología]({{ '/metodologia/' | relative_url }}) · [English]({{ '/en/' | relative_url }})
