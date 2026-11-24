@@ -1,7 +1,8 @@
 ---
 title: "Bienestar de gatos"
 permalink: /gatos/bienestar/
-nav_exclude: true
+parent: Gatos
+nav_order: 5
 lang: es
 description: "Índice especializado de bienestar felina en Nutripetia."
 ---
