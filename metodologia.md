@@ -1,6 +1,6 @@
 ---
 title: Metodología
-nav_order: 2
+nav_order: 7
 permalink: /metodologia/
 description: Cómo investigamos, evaluamos fuentes y afirmaciones, auditamos y publicamos conocimiento científico.
 lang: es
