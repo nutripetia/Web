@@ -1,7 +1,8 @@
 ---
 title: "Salud y nutrición de perros"
 permalink: /perros/salud-y-nutricion/
-nav_exclude: true
+parent: Perros
+nav_order: 4
 lang: es
 description: "Índice especializado de salud y nutrición canina en Nutripetia."
 ---
