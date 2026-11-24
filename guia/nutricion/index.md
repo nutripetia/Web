@@ -1,7 +1,9 @@
 ---
 title: "Nutrición animal"
 permalink: /guia/nutricion/
-nav_exclude: true
+parent: "Guía científica"
+nav_order: 1
+has_children: true
 lang: es
 description: "Mapa temático provisional de nutrición animal en Nutripetia."
 ---
