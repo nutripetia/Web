@@ -1,0 +1,16 @@
+# Nutripetia
+
+> Investigación y divulgación científica sobre nutrición y bienestar animal, especialmente perros y gatos.
+
+Los índices temáticos son provisionales y no equivalen a resultados científicos revisados ni a recomendaciones veterinarias.
+
+## Recursos públicos
+
+- [Inicio](https://nutripetia.es/)
+- [Metodología](https://nutripetia.es/metodologia/)
+- [Investigaciones](https://nutripetia.es/investigaciones/)
+- [Guía científica](https://nutripetia.es/guia/)
+- [Perros](https://nutripetia.es/perros/)
+- [Gatos](https://nutripetia.es/gatos/)
+- [El proyecto](https://nutripetia.es/nosotros/)
+- [English](https://nutripetia.es/en/)
