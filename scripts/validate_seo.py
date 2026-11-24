@@ -65,7 +65,18 @@ def main():
     if not ROOT.is_dir():
         sys.exit("SEO validation FAILED: _site missing; run Jekyll build first")
     titles, descriptions = {}, {}
-    for route, (relative, expected_lang) in ROUTES.items():
+    routes = dict(ROUTES)
+    sitemap = ROOT / "sitemap.xml"
+    if sitemap.is_file():
+        for node in ET.parse(sitemap).iter():
+            if node.tag.split("}")[-1] != "loc" or not node.text:
+                continue
+            path = urlparse(node.text.strip()).path
+            if path.endswith("/"):
+                routes[path] = (path.lstrip("/") + "index.html", "en" if path.startswith("/en/") else "es")
+            elif path.endswith(".html"):
+                routes[path] = (path.lstrip("/"), "en" if path.startswith("/en/") else "es")
+    for route, (relative, expected_lang) in routes.items():
         path = ROOT / relative
         if not path.is_file():
             errors.append(f"{route}: missing HTML {relative}")
@@ -117,7 +128,7 @@ def main():
         for err in errors:
             print(" -", err)
         return 1
-    print(f"SEO validation OK: {len(ROUTES)} routes; titles, descriptions, lang, canonical, H1, sitemap")
+    print(f"SEO validation OK: {len(routes)} routes; titles, descriptions, lang, canonical, H1, sitemap")
     print("NOTE: hreflang equivalence and deployed HTTP responses are not tested")
     return 0
 
