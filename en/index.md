@@ -1,6 +1,6 @@
 ---
 title: Nutripetia — English
-nav_order: 5
+nav_order: 9
 permalink: /en/
 description: Independent scientific research, assessment and communication on dog and cat nutrition and welfare.
 lang: en
@@ -30,6 +30,6 @@ Our research interests include nutrients, digestion, metabolism, foods and ingre
 
 ## Project status
 
-Nutripetia is developing its scientific and editorial foundations. Open research files are **not** presented as completed findings. A connected knowledge guide is planned for a later stage, once the underlying evidence base is established.
+Nutripetia is developing its scientific and editorial foundations. Open research files are **not** presented as completed findings. The Spanish-language knowledge guide and species portals now provide provisional topic indexes. Reviewed scientific entries will be added as the evidence base develops.
 
 [Read about our methodology]({{ '/en/methodology/' | relative_url }}) · [Español]({{ '/' | relative_url }})
