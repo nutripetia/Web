@@ -13,7 +13,14 @@ jobs:
         with:
           ruby-version: '3.1'
           bundler-cache: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install validator dependency
+        run: python -m pip install PyYAML==6.0.2
       - name: Build Jekyll (no deployment)
         run: bundle exec jekyll build --trace
       - name: Verify stable URLs and unpublished placeholders
         run: python3 scripts/validate_web.py
+      - name: Verify SEO metadata and sitemap in generated HTML
+        run: python3 scripts/validate_seo.py
