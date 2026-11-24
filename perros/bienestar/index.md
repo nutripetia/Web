@@ -12,19 +12,16 @@ Esta sección organiza el estudio de bienestar aplicado específicamente al perr
 
 ## Ámbitos de estudio
 
-- Necesidades conductuales.
-- Entorno.
-- Descanso.
-- Relaciones.
-- Salud física.
+- Ejercicio y actividad adaptada.
+- Descanso y refugio.
+- Estimulación cognitiva y olfativa.
+- Convivencia y relaciones sociales.
+- Estrés y estado emocional.
 - Indicadores de bienestar.
 
-## Preguntas para investigar
+## Programa de desarrollo
 
-- ¿Qué particularidades de esta materia están documentadas en perros?
-- ¿Qué diferencias individuales o contextuales pueden modificar su interpretación?
-- ¿Qué fuentes permiten distinguir resultados observados, hipótesis y recomendaciones?
-- ¿Cuándo no es válido extrapolar resultados de otras especies?
+Cada ámbito se desarrollará mediante preguntas delimitadas, fuentes contrastadas y revisión independiente. Se priorizarán los contenidos de utilidad práctica y las incertidumbres relevantes para perros, sin confundir asociaciones con causalidad ni recomendaciones generales con indicaciones clínicas individuales.
 
 ## Relación con el conocimiento general
 
