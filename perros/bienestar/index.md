@@ -1,7 +1,8 @@
 ---
 title: "Bienestar de perros"
 permalink: /perros/bienestar/
-nav_exclude: true
+parent: Perros
+nav_order: 5
 lang: es
 description: "Índice especializado de bienestar canina en Nutripetia."
 ---
