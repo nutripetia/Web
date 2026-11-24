@@ -1,6 +1,6 @@
 ---
 title: Nutripetia — English
-nav_order: 5
+nav_order: 9
 permalink: /en/
 description: Independent scientific research, assessment and communication on dog and cat nutrition and welfare.
 lang: en
