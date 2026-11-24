@@ -1,7 +1,8 @@
 ---
-title: "Guía de nutrición y bienestar animal"
+title: "Guía científica"
 permalink: /guia/
 nav_order: 4
+has_children: true
 lang: es
 description: "Explora la estructura temática de la nutrición y el bienestar de perros y gatos en Nutripetia."
 ---
