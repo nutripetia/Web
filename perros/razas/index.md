@@ -1,7 +1,8 @@
 ---
-title: "Razas y diversidad de perros"
+title: "Razas de perros"
 permalink: /perros/razas/
-nav_exclude: true
+parent: Perros
+nav_order: 7
 lang: es
 description: "Índice especializado de razas y diversidad canina en Nutripetia."
 ---
