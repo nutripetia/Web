@@ -1,7 +1,8 @@
 ---
-title: "Gatos: nutrición y bienestar"
+title: "Gatos"
 permalink: /gatos/
-nav_order: 6
+nav_order: 3
+has_children: true
 lang: es
 description: "Portal especializado en nutrición, alimentación, comportamiento y bienestar de gatos."
 ---
