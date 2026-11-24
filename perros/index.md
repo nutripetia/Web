@@ -1,7 +1,8 @@
 ---
-title: "Perros: nutrición y bienestar"
+title: "Perros"
 permalink: /perros/
-nav_order: 5
+nav_order: 2
+has_children: true
 lang: es
 description: "Portal especializado en nutrición, alimentación, comportamiento y bienestar de perros."
 ---
