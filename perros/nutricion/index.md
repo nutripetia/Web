@@ -1,7 +1,8 @@
 ---
 title: "Nutrición de perros"
 permalink: /perros/nutricion/
-nav_exclude: true
+parent: Perros
+nav_order: 1
 lang: es
 description: "Índice especializado de nutrición canina en Nutripetia."
 ---
