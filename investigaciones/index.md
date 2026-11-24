@@ -1,6 +1,6 @@
 ---
-title: Investigaciones
-nav_order: 3
+title: "Investigaciones"
+nav_order: 5
 permalink: /investigaciones/
 description: Cómo se organizan y publican las investigaciones científicas de Nutripetia.
 lang: es
