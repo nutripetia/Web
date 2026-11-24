@@ -12,18 +12,15 @@ Esta sección organiza el estudio de etapas de vida aplicado específicamente al
 
 ## Ámbitos de estudio
 
-- Crecimiento.
-- Edad adulta.
-- Envejecimiento.
+- Cachorros y crecimiento según tamaño adulto.
+- Perros adultos.
+- Perros sénior.
 - Gestación y lactancia.
-- Cambios fisiológicos y necesidades individuales.
+- Esterilización y cambios de actividad.
 
-## Preguntas para investigar
+## Programa de desarrollo
 
-- ¿Qué particularidades de esta materia están documentadas en perros?
-- ¿Qué diferencias individuales o contextuales pueden modificar su interpretación?
-- ¿Qué fuentes permiten distinguir resultados observados, hipótesis y recomendaciones?
-- ¿Cuándo no es válido extrapolar resultados de otras especies?
+Cada ámbito se desarrollará mediante preguntas delimitadas, fuentes contrastadas y revisión independiente. Se priorizarán los contenidos de utilidad práctica y las incertidumbres relevantes para perros, sin confundir asociaciones con causalidad ni recomendaciones generales con indicaciones clínicas individuales.
 
 ## Relación con el conocimiento general
 
