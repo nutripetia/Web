@@ -1,7 +1,9 @@
 ---
 title: "Bienestar animal"
 permalink: /guia/bienestar/
-nav_exclude: true
+parent: "Guía científica"
+nav_order: 2
+has_children: true
 lang: es
 description: "Mapa temático provisional de bienestar animal en Nutripetia."
 ---
